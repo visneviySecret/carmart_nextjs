@@ -1,0 +1,62 @@
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    .item{
+        width: 50%;
+        margin-bottom: 1.1rem;
+        .item__descriptionTitles{
+            font-size: 0.5rem;
+            margin-bottom: 0.3rem;
+            letter-spacing: 1px;
+            color: #ACB8BF;
+            text-transform: uppercase;
+            opacity: 1;
+            .item__description{
+                color: Black;
+                text-transform: none;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis ;
+                font-size: 0.65rem;
+            }   
+            .item__extended_discription {
+                text-transform: none;
+                cursor: pointer;
+            }
+        }
+
+    }
+}
+
+.modal {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    width: 13.75rem;
+    height: 21.3rem;
+    padding: 0.8rem;
+    overflow: scroll;
+
+    .header {
+        color: #22BF86;
+        margin-bottom: 0.6rem;
+        display: flex;
+        justify-content: space-between;
+        .title {
+            font-size: 0.9rem;
+        }
+        .close_icon {
+        }
+    }
+    .options_list{
+        font-size: 0.6rem;
+        color: #303030;
+        div {
+            margin-bottom: 0.6rem;
+        }
+    }
+}
+.modal_not_active {
+    display: none;
+}

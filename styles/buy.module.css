@@ -1,0 +1,50 @@
+.buy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy .buy__price {
+  letter-spacing: 0;
+  opacity: 1;
+  font-size: 1.4rem;
+}
+
+.buy .buy__price .buy__price_main {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.buy .buy__price .buy__price_main .green {
+  color: #22BF86;
+}
+
+.buy .buy__price .buy__additional {
+  display: flex;
+  font-size: 0.85rem;
+}
+
+.buy .buy__price .buy__additional .green {
+  margin: 0 0.5em;
+  color: #22BF86;
+}
+
+.buy .button {
+  text-align: center;
+  display: inline-block;
+  border: none;
+  width: 7.25rem;
+  height: 2.4rem;
+  font-size: 0.5em;
+  letter-spacing: 0.1rem;
+  color: #FFFFFF;
+  opacity: 1;
+  background: transparent linear-gradient(252deg, #11998E 0%, #38EF7D 100%) 0% 0% no-repeat padding-box;
+  border-radius: 0.4rem;
+  color: white;
+}
+
+.buy .order {
+  color: #707B8C;
+  background: #E7EBF0;
+}
+/*# sourceMappingURL=buy.module.css.map */

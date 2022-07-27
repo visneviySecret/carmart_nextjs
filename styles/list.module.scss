@@ -1,0 +1,23 @@
+
+.selector{
+    color: white;
+    background-color: rgb(44, 44, 44);
+    width: 15rem;
+    height: 2.5em;
+    padding: 0.4rem;
+    border: 0 solid white;
+    border-radius: 0.2rem;
+    &active {
+        border: 0 solid white;
+    }
+}
+
+.mMasonryGrid {
+    margin-top: 2rem;
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    width: auto;
+}
+
+
