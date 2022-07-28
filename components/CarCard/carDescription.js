@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Modal from './carModal'
-import styles from '../../styles/description.module.css'
+import styles from '../../styles/css/description.module.css'
 
 export default function CarDescription({
     variationEquipmentVariants, feedData

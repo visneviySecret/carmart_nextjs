@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Car from './carCard'
-import styles from '../styles/list.module.css'
+import styles from '../styles/css/list.module.css'
 
 import Masonry from 'react-masonry-css'
 
-export default function CarsList() {
+
+const CarsList = ({ cars }) => {
     const [carsList, setCarsList] = useState()
     const [selectedBrand, setSelectedBrand] = useState('Audi')
 
@@ -22,6 +23,7 @@ export default function CarsList() {
         700: 2,
         500: 1
     };
+    console.log(cars)
 
     return (
         <div className='container-lg my-5'>
@@ -57,3 +59,5 @@ export default function CarsList() {
     )
 
 }
+
+export default CarsList

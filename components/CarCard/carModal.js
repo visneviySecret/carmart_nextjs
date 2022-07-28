@@ -1,4 +1,4 @@
-import styles from '../../styles/description.module.css'
+import styles from '../../styles/css/description.module.css'
 import Image from 'next/image'
 import crossImg from '../../assets/cross-23.svg'
 

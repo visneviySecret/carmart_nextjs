@@ -3,7 +3,7 @@ import CarHeader from './CarCard/carHeader'
 import CarPicture from './CarCard/carPicture'
 import CarDescription from './CarCard/carDescription'
 import BuyCar from './CarCard/carBuy'
-import styles from '../styles/card.module.css'
+import styles from '../styles/css/card.module.css'
 
 export default function Car({ car }) {
     const {

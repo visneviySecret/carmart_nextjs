@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/buy.module.css'
+import styles from '../../styles/css/buy.module.css'
 
 export default function CarBuy({
     legacy, feedData

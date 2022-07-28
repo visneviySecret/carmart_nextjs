@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/img.module.css'
+import styles from '../../styles/css/img.module.css'
 import Image from 'next/image'
 
 export default function carPicture({
